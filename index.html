@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="display">
+            <div class="clear" onclick="clear_value()">clear</div>
+            <div class="input-line">0</div>
+        </div>
+        <div class="button-container">
+            <div class="group1" onclick="set_value(7)">
+                <div class="button"></div>
+                <div class="text">7</div>
+            </div>
+            <div class="group2" onclick="set_value(8)">
+                <div class="button"></div>
+                <div class="text">8</div>
+            </div>
+            <div class="group3" onclick="set_value(9)">
+                <div class="button"></div>
+                <div class="text">9</div>
+            </div>
+            <div class="group4" onclick="set_op('/')">
+                <div class="button"></div>
+                <div class="text">/</div>
+            </div>
+            <div class="group5" onclick="set_value(4)">
+                <div class="button"></div>
+                <div class="text">4</div>
+            </div>
+            <div class="group6" onclick="set_value(5)">
+                <div class="button"></div>
+                <div class="text">5</div>
+            </div>
+            <div class="group7" onclick="set_value(6)">
+                <div class="button"></div>
+                <div class="text">6</div>
+            </div>
+            <div class="group8" onclick="set_op('X')">
+                <div class="button"></div>
+                <div class="text">X</div>
+            </div>
+            <div class="group9" onclick="set_value(1)">
+                <div class="button"></div>
+                <div class="text">1</div>
+            </div>
+            <div class="group11" onclick="set_value(2)">
+                <div class="button"></div>
+                <div class="text">2</div>
+            </div>
+            <div class="group12" onclick="set_value(3)">
+                <div class="button"></div>
+                <div class="text">3</div>
+            </div>
+            <div class="group14" onclick="set_op('-')">
+                <div class="button"></div>
+                <div class="text">-</div>
+            </div>
+            <div class="group15" onclick="set_value(0)">
+                <div class="button"></div>
+                <div class="text">0</div>
+            </div>
+            <div class="group16" onclick="set_value('.')">
+                <div class="button"></div>
+                <div class="text">.</div>
+            </div>
+            <div class="group17" onclick="res()">
+                <div class="button"></div>
+                <div class="text">=</div>
+            </div>
+            <div class="group18" onclick="set_op('+')">
+                <div class="button"></div>
+                <div class="text">+</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
